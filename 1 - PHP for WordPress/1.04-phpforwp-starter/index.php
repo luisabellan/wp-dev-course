@@ -23,8 +23,10 @@
 
       // Loop through array of posts and display each one on the page
       foreach ($posts as $post) {
+        
         // Call the display_title function and pass it the $post
         display_title($post);
+
       }
 
 
@@ -37,7 +39,7 @@
       function display_title( $title ) {
 
         // Echo an <h3> tag with the $title inside\
-        echo "<h3><a href=\"#\" rel=\"noopener\">$title</a></h3>";
+        echo '<h3><a href="#" rel="noopener">$title</a></h3>';
       }
 
     ?>
